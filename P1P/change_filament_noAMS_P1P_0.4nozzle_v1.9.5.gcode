@@ -1,5 +1,5 @@
 ;===== machine: P1P ========================
-; modified gcode from Bambu Studio v1.9.5
+; modified gcode from Bambu Studio v1.9.6
 ;
 ; removed conditional statements for checking filament type
 ; Added Conditional Logic to Stop Print pause at beginning

@@ -2,6 +2,7 @@
 ; modified gcode from Bambu Studio v1.9.5
 ;
 ; removed conditional statements for checking filament type
+; Added Conditional Logic to Stop Print pause at beginning
 
 {if (next_extruder != current_extruder) && (toolchange_count > 1) && (layer_num > 0)}
 

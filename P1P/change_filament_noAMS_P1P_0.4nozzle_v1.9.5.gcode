@@ -3,6 +3,8 @@
 ;
 ; removed conditional statements for checking filament type
 
+{if (next_extruder != current_extruder) && (toolchange_count > 1) && (layer_num > 0)}
+
 M204 S9000 ; set starting acceleration
 G17 ; set CNC workspace plane
 G2 Z{max_layer_z + 0.4} I0.86 J0.86 P1 F10000 ; spiral lift
